@@ -1,0 +1,92 @@
+/* Color Palette
+#1C1A1A (Light Black) 
+#BF1363 (Magenta) 
+#CDD6D0 (Light Blue) 
+#D6CBC1 (Light Beige) 
+#D6A99A (Dark Beige)
+*/
+
+
+/* Global Styles*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #d6a99a;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+p {
+    padding: 20px;
+}
+
+
+/* Navigation Bar*/
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #D6A99A;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #bf1363;
+    color: white;
+}
+
+
+/* Hero Page and Header*/
+
+.mask {
+    position: absolute;
+    width: 1285px;
+    height: 331px;
+    right: 200px;
+    top: 204px;
+}
+
+.centered {
+    position: absolute;
+    width: 687px;
+    height: 130px;
+    left: 294px;
+    top: 304px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+/*SUBHEADER*/
